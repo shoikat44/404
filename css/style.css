@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,700,900&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    background-color: #f5f5f5;
+}
+.socialicon{}
+.socialicon li{padding: 0 6px;}
+.socialicon a{
+    color: #a0a0a0;
+}
+
+.socialicon a i{}
+.socialicon a i:hover{
+    color: #f69165;
+}
+
+.top-search{}
+.top-search ul{}
+.top-search ul a{
+    color: #a0a0a0;
+    padding: 0 8px;
+    text-decoration: none;
+}
+.top-search ul a:hover{}
+.top-search ul a i{
+    color: #f69165;
+}
+.top-bar{}
+.top-bar input{
+    /* background-color: #f5f5f5; */
+}
+.top-bar button{margin-left: -5px;}
+.top-bar button i{
+    color: #f69165;
+}
+.logo h6{
+    float: right;
+    margin-top: 3px;
+    font-size: 30px;
+    margin-left: 10px;
+    font-weight: 600;
+}
+.logo h6 span{
+
+color: #f69165;
+}
+
+.logo{}
+.header-contact{}
+
+.header-contact a{}
+.header-contact a i{width: 20px;font-size: 35px;margin: 0 25px;color: #f69165;}
+
+.details{
+    margin-left: 0px;
+}
+.details h6{
+    font-size: 12px;
+    color: #848484;
+     font-weight: 600;
+}
+.details h3{
+    font-size: 18px;
+    font-weight: 600;
+}
+header{
+    margin: 20px;
+
+}
+
+.menu-bar{
+    background-color: #00cce1;
+    position: relative;
+}
+.menu{}
+.menu  li{}
+.menu li a{
+    color: #fff;
+    text-transform: uppercase;
+}
+.menu li a:hover{
+    color: #f69165;
+}
+.Appointment-menu{
+    position: absolute;
+    top: 122px;
+    right: 290px;
+}
+
+.Appointment-menu a{
+    margin-right: 10px;
+    color: #fff;
+}
+.Appointment-menu a:hover{
+    text-decoration: none;
+    color: #f69165;
+}
+.Appointment-menu a i{}
+.btn-custom{
+    background-color: #f69165;
+    padding: 15px 25px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.btn-custom i{}
+.btn-custom:hover{}
+.btn{
+    
+
+}
+
+
+
+.banner{
+    background-image: url(../imeges/1.png);
+    background-size: cover;
+    min-height: 50vh;
+    background-position: center;
+    position: relative;
+}
+.banner h6{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translateY(-50%);
+    color: #f69165;
+    font-size: 26px;
+    font-weight: 600;
+}
+.banner h5{
+    position: absolute;
+    top: 50%;
+    right: 13%;
+    transform: translateY(-50%);
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+}
+.banner-content{
+    position: relative;
+    height: 460px;
+}
+.first-position{
+    position: absolute;
+    right: 45%;
+    top: 75px;
+}
+.first-position span{
+    color: #00cce1;
+    font-size: 64px;
+    font-weight: 900;
+}
+.first-position img{width: 95px;}
+
+.secound-position {
+    position: absolute;
+    top: 265px;
+    right: 533px;
+    margin-bottom: 120px;
+}
+.secound-position h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+.secound-position  h5{
+    text-align: center;
+    font-size: 19px;
+    color: #707070;
+    font-weight: 300;
+}
+.secound-position  h6{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #f69165;
+}
+
+.search{
+    padding: 40px 455px;
+    background-color: #f5f5f5;
+}
+.search-bar{
+}
+.search-bar input{
+    width: 80%;
+}
+.search-bar button{
+    margin-left: -5px;
+}
